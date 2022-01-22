@@ -75,6 +75,6 @@ pip freeze > requirements.txt
 
 ## Repo organization
 
-At (example_module)['./example_module/'] has a package to test something as a package.
+At [example_module]('./example_module/') has a package to test something as a package.
 
-At (examples)['./examples'] has scripts to test different things using the example_module and also some scripts tests.
+At [examples]('./examples') has scripts to test different things using the example_module and also some scripts tests.
