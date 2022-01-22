@@ -1,12 +1,7 @@
 Welcome to geospatial_examples's documentation!
 ===============================================
-.. automodule:: example_module
+.. automodule:: example_module.logging
    :members:
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 
 
 Indices and tables
