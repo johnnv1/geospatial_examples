@@ -10,17 +10,20 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
 
-# sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("../example_module/"))
 
 
 # -- Project information -----------------------------------------------------
 
-project = "No Errors Test Project"
-copyright = "2022, João G. Atkinson Amorim"
+project = "geospatial_examples"
+copyright = "2022, João Gustavo Atkinson Amorim"
 author = "João Gustavo Atkinson Amorim"
+
+# The full version, including alpha/beta/rc tags
+release = "1.0.0"
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,7 +31,7 @@ author = "João Gustavo Atkinson Amorim"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ["sphinx.ext.autodoc", "sphinx.ext.coverage", "sphinx.ext.napoleon"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -36,7 +39,7 @@ templates_path = ["_templates"]
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------
