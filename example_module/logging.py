@@ -40,3 +40,21 @@ def logger_wraps(
         return wrapped
 
     return wrapper
+
+
+def test_docstring(something: str) -> str:
+    """log something just to test the docs build
+
+    Parameters
+    ----------
+    something : str
+        something
+
+    Returns
+    -------
+    str
+        something
+    """
+
+    logger.info(something)
+    return something
