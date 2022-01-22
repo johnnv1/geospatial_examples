@@ -1,0 +1,6 @@
+[tool.black]
+profile = 'black'
+line-length = 128
+target-version = ['py310']
+ensure_newline_before_comments = 'True'
+extend-ignore = 'E501'
