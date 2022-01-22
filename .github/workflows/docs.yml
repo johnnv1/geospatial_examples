@@ -1,6 +1,9 @@
-name: "Push Docs Check"
-on: 
-- push
+name: CI docs sphinx
+
+on:
+  push:
+    branches:    
+      - master
 
 jobs:
   docs:
@@ -9,7 +12,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -b html . _build -c /github/workspace/docs/"
         docs-folder: "docs/"
     # Create an artifact of the html output.
     - uses: actions/upload-artifact@v1
