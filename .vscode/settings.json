@@ -1,0 +1,26 @@
+{
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.banditEnabled": false,
+    "python.linting.prospectorEnabled": false,
+    "python.linting.pylamaEnabled": false,
+    "python.linting.mypyEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "env/bin/python",
+    "python.linting.flake8Path": "env/bin/flake8",
+    "python.linting.pylamaPath": "env/bin/pylint",
+    "python.formatting.autopep8Path": "env/bin/autopep8",
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "127",
+        "--experimental",
+    ],
+}
