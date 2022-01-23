@@ -63,7 +63,7 @@ rm get-pip.py
 pip install --upgrade pip
 ```
 
-To install the packages utilized at this repo, just use:
+To install the packages utilized for dev at this repo, just use:
 ```bash
 pip install -r requirements.txt
 ```
